@@ -1,0 +1,30 @@
+.center {
+  text-align: center;
+}
+body {
+  background-color: #f4edcc;
+}
+h1 {
+  color: #a4ce95;
+  font-size: 40px;
+}
+h2 {
+  color: #6196a6;
+}
+h3 {
+  color: darkorange;
+}
+a {
+  color: #5f5d9c;
+  font-size: 20px;
+}
+.font {
+  font-family: "Oswald", sans-serif;
+}
+ul {
+  list-style-position: inside;
+}
+img{
+    width: 200;
+    height: 300;
+}

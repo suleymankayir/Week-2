@@ -1,0 +1,16 @@
+h1{
+  color: blue;
+  font-size: 50pxßß;
+}
+
+p{
+  color: chocolate;
+  font-size: 38px;
+}
+  /* 
+    Serif yazı tiplerinin her harfin kenarlarında küçük bir kontur vardır. Bir formalite ve zarafet duygusu yaratırlar.
+    Sans-serif yazı tiplerinin temiz satırları vardır (küçük konturlar eklenmez). Modern ve minimalist bir görünüm yaratırlar.
+    Monospace yazı tipleri burada tüm harfler aynı sabit genişliğe sahiptir. Mekanik bir görünüm yaratırlar.
+    Cursive yazı insan el yazısı taklidi gibidir.
+    Fantasy yazı tipleri dekoratif, eğlenceli yazı tipleridir.
+ */

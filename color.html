@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      h2 {
+        color: red;
+      }
+      .box1 {
+        /* HEX kodları ile renk belirleme */
+        background-color: #6eef66;
+        width: 300px;
+        height: 300px;
+      }
+      h1{
+        /* 
+        rgb ile renk belirleme 
+        red green ve blue için rakam girerek baskınlıklarına göre ortaya çıkan renk
+        değerler 0 ile 255 arasında olmalı.
+        */
+        color: rgb(240, 130, 120);
+      }
+      .kutu1{
+        /*
+         url ile resmimizin urlsini veriyoruz
+         size ile cover dediğimizde resmi kaplıyor
+         position ile pozisyonunu seçiyoruz.
+         border ile çerçeve
+         */
+        background-image: url(image.png);
+        background-size: cover;
+        background-position: center;
+        width: 500px;
+        height: 500px;
+        border: 1px solid red;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="box1">
+        <h1>Lorem, ipsum.</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+    </div>
+    <h1>asdasdas</h1>
+  </body>
+</html>

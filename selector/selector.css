@@ -1,0 +1,23 @@
+
+/* 
+p.mavi derken sadece p etiketine sahip mavi classından olanlar kastediliyor.
+*/
+
+p.mavi{
+    color: blue;
+}
+
+.mavi {
+  color: blue;
+}
+
+  
+p[title="isim"] {
+    color: red;
+  }
+.a.b{
+    background-color: aqua;
+}
+.a .b{
+    background-color: aqua;
+}

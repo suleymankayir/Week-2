@@ -6,22 +6,23 @@ body {
 i {
   font-size: 30px;
   margin-left: 10px;
-
 }
 nav a {
   padding-left: 50px;
   color: inherit;
-  
 }
 nav {
- 
   text-align: center;
 }
 section {
-  padding: 20px;
+  
+  position: relative;
+
   margin-left: auto;
   margin-right: auto;
   text-align: center;
+  width: 80%;
+  height: 30%;
 }
 .madimi-one-regular {
   font-family: "Madimi One", sans-serif;
@@ -34,34 +35,39 @@ footer {
   width: 100%;
   bottom: 0;
   margin: 0;
-  
+
   position: fixed;
 }
 
-footer a{
-    padding-left: 20px;
-    color: inherit;
-    text-decoration: none;
+footer a {
+  padding-left: 20px;
+  color: inherit;
+  text-decoration: none;
 }
-a:hover{
-    color: white;
-    transform: scale(1.2);
-    font-size: 120%;
+a:hover {
+  color: white;
+  transform: scale(1.2);
+  font-size: 120%;
 }
-i:hover{
-    transform: scale(1.5);
-    transition: transform 500ms;
+i:hover {
+  transform: scale(1.5);
+  transition: transform 500ms;
 }
-.text{
+.text {
+  width: 50%;
+  height: 30%;
+  position: relative;
+  margin-left: auto;
 
-    width: 70%;
-    height: 30%;
-    
-    margin-left: auto;
-    margin-right: auto;
-    font-size: 1.8vw;
-    margin-top: 10px;
-    text-align: left;
-    text-indent: 1em;
-    background-color: red;
+  font-size: 1.8vw;
+
+  text-align: left;
+  text-indent: 1em;
+}
+.image {
+  position: absolute;
+  margin-top: 12%;
+  float: left;
+  width: 50%;
+  height: 30%;
 }

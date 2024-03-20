@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  height: 100%;
+}
+.layout {
+  display: flex;
+  /*flex-wrap: wrap;  eleman taşarsa onu aşağı getir */
+  flex-direction: column;
+  height: 100%;
+}
+.layout .flex {
+  display: flex;
+  width: 100%;
+  height: calc(100% - 140px);
+}
+.header {
+  width: 100%;
+  height: 70px;
+  background: #eee;
+}
+.sidebar {
+  width: 200px;
+
+  flex-shrink: 0; /*  Bu kısmı tarayıcı küçültülse dahi küçültme  */
+  background: #ccc;
+}
+.content {
+  background: purple;
+  flex-grow: 1;
+  overflow: auto;
+}
+.footer {
+  height: 70px;
+  width: 100%;
+  background: #bbb;
+}

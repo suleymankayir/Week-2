@@ -1,6 +1,9 @@
 * {
   margin: 0;
   padding: 0;
+  border: 0;
+  box-sizing: border-box;
+  background: transparent;
 }
 
 html,
@@ -38,4 +41,25 @@ body {
   height: 70px;
   width: 100%;
   background: #bbb;
+}
+.input{
+  margin: 40px;
+  display: inline-flex;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+.input button {
+  height: 40px;
+  padding: 0 15px;
+  font-size: 14px;
+  background: #eee;
+  border-right: 1px solid #ddd;
+}
+.input input{
+  padding:  0 15px;
+  font-size: 14px;
+  outline: none;
+}
+.input:focus-within{
+  border-color: rebeccapurple;
 }
